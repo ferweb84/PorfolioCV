@@ -12,7 +12,7 @@
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&family=Play:wght@700&display=swap" rel="stylesheet">
       
       <!-- Metadatos -->
       <meta charset="UTF-8">
@@ -61,7 +61,7 @@
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <img class="hero-imagen-desarrollador rounded-circle" src="./images/FerReyna-fotor-20231108212412.jpg" alt="Foto de Fernando Reyna">
         <h1>Hola, soy <br> Fernando Reyna</h1>
-        <h2> <hr>Desarrollo sitios web | Programacion </h2>
+        <h2> <hr>Desarrollo sitios web | Programación </h2>
       </div>
       <div class="hero-inferior">
         <img class="hero-inferior-imagen img-fluid" src="./images/hero-inferior.svg" alt="Monitor, laptop, logos de HTML, CSS, JavaScript, React">
@@ -78,14 +78,23 @@
     </section>
 
     <!-- Experiencia -->
-    <section  class="experiencia seccion-clara">
+    <section  class="experiencia seccion-clara text-center">
+      <h2 class="seccion-titulo ">Desarrollo web - Experiencia <br> Cursos realizados</h2>
+      
       <div class="container text-center">
+        
         <div class="row">
-          <!-- Desarrollo web -->
+          <!-- Desarrollo web - FRONTEND -->
           <div class="columna col-12 col-md-4">
             <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Desarrollo web</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptatibus iste necessitatibus voluptate cumque cum accusamus placeat. Repudiandae eius praesentium distinctio quod laborum maxime cum accusamus ullam, rem illo dolorum?</p>
+            <p class="experiencia-titulo">Desarrollo Frontend</p>
+            <ul class="items-cursos">
+              <li>HTML5 y estructuración semántica.</li>
+              <li>Estilización y diseño con CSS3.</li>
+              <li>Programación en JavaScript: manipulación del DOM, eventos, AJAX.</li>
+              <li>Frameworks de desarrollo frontend: React.js.</li>
+              <li>Herramientas de construcción y gestión de dependencias.</li>
+            </ul>
             <div class="badges-contenedor">
               <span class="badge text-bg-success">HTML</span>
               <span class="badge text-bg-success">CSS</span>
@@ -95,32 +104,98 @@
             </div>
           </div>
 
-          <!-- Articulos -->
+          <!-- BACKEND -->
           <div class="columna col-12 col-md-4">
             <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Articulo</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptatibus iste necessitatibus voluptate cumque cum accusamus placeat. Repudiandae eius praesentium distinctio quod laborum maxime cum accusamus ullam, rem illo dolorum?</p>
+            <p class="experiencia-titulo">Desarrollo Backend</p>
+            <ul class="items-cursos">
+              <li>Introducción a Node.js y Express.js.</li>
+              <li>Creación de API RESTful.</li>
+              <li>Bases de datos: MongoDB, MySQL.</li>
+              <li>Interacción con bases de datos usando Node.js.</li>
+              <li>Autenticación y autorización de usuarios.</li>
+            </ul>
             <div class="badges-contenedor">
-              <span class="badge text-bg-success">Escribir</span>
-              <span class="badge text-bg-success">Editar</span>
-              <span class="badge text-bg-success">Blogs</span>
+              <span class="badge text-bg-success">Node.js</span>
+              <span class="badge text-bg-success">Express.js</span>
+              <span class="badge text-bg-success">API RESTful</span>
+              <span class="badge text-bg-success">MongoDB</span>
 
             </div>
           </div>
 
-          <!-- Estudiante -->
+          <!-- Full Stack -->
           <div class="columna col-12 col-md-4">
             <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Estudiante</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptatibus iste necessitatibus voluptate cumque cum accusamus placeat. Repudiandae eius praesentium distinctio quod laborum maxime cum accusamus ullam, rem illo dolorum?</p>
+            <p class="experiencia-titulo">Desarrollo Full Stack <br>Y Python</p>
+            <ul class="items-cursos">
+              <li>Integración de frontend y backend.</li>
+              <li>Construcción de aplicaciones web completas.</li>
+              
+            </ul>
             <div class="badges-contenedor">
-              <span class="badge text-bg-success">Desarrollo Web</span>
+              <span class="badge text-bg-success">Frontend</span>
               <span class="badge text-bg-success">Backend</span>
-              <span class="badge text-bg-success">Python</span>
-             
-
+              <span class="badge text-bg-success">Aplicaciones <br>web</span>
+              <span class="badge text-bg-success">Django</span>
+              <span class="badge text-bg-success">Firebase</span>
+              <span class="badge text-bg-success">SQLite</span>
             </div>
           </div>
+          <!-- Herramientas de desarrollo - control versiones - Pruebas y Depuracion -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Herramientas de desarrollo <br> Y control de Versiones</p>
+            <ul class="items-cursos">
+              <li>Editores de código: Visual Studio Code, Atom.</li>
+              <li>Depuración y perfiles de rendimiento.</li>
+              <li>Extensiones y complementos útiles.</li>
+              <li>Uso de Git y GitHub.</li>
+              <li>Ramificación, fusiones y resolución de conflictos.</li>
+              
+            </ul>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">Visual Studio Code</span>
+              <span class="badge text-bg-success">Git</span>
+              <span class="badge text-bg-success">Github</span>
+            </div>
+          </div>
+              <!-- Despliegue y Hospedaje -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Despliegue y Hospedaje</p>
+                <ul class="items-cursos">
+                  <li>Configuración de entornos de desarrollo, prueba y producción.</li>
+                  <li>Plataformas de alojamiento: Heroku, Netlify, AWS, etc.</li>
+                  <li>Estrategias de despliegue continuo (CI/CD).</li>
+                </ul>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-success">Heroku</span>
+                  <span class="badge text-bg-success">Netlify</span>
+                  <span class="badge text-bg-success">Github</span>
+                </div>
+              </div>
+               <!-- Desarrollo Agil y Colaborativo -->
+               <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Desarrollo Agil y Colaborativo</p>
+                <ul class="items-cursos">
+                  <li>Metodologías ágiles: Scrum, Kanban.</li>
+                  <li>Colaboración en equipos de desarrollo.</li>
+                  <li>Comunicación efectiva en el desarrollo web.</li>
+                </ul>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-success">Github</span>
+                  <span class="badge text-bg-success">Slack</span>
+                  <span class="badge text-bg-success">Discord</span>
+                  <span class="badge text-bg-success">Jira</span>
+                  <span class="badge text-bg-success">Trello</span>
+                </div>
+              </div>
+              <div>
+                <br><hr>
+                <h2 class="seccion-descripcion">Aprendizaje continuo y la actualización de habilidades son esenciales en este campo en constante evolución.</h2><hr>
+              </div>
       </div>
 
 
