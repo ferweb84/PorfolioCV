@@ -89,7 +89,7 @@ h1 {
 }
 
 .sobre-mi{
-    height: 500px;
+    height: 700px;
     padding: 10px;
 }
 
@@ -97,7 +97,9 @@ h1 {
     max-width: 850px;
     text-align: center;
 }
-
+.sobre-mi .seccion-texto{
+    font-size: 20px;
+}
 /* Experiencia */
 .experiencia{
     padding: 40px 40px 60px 40px;
@@ -376,6 +378,18 @@ footer{
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 400px) {
+    .sobre-mi .seccion-titulo{
+        font-size: 20px;
+    }
+    .sobre-mi .seccion-texto{
+        font-size: 16px;
+    }
+    .sobre-mi .seccion-texto1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .overlay p{
         font-size: 18px;
     }
@@ -384,6 +398,7 @@ footer{
     }
 }
 
+    
 @media screen and (max-width: 767px) {
     .navbar-brand{
         display: none;
@@ -398,8 +413,8 @@ footer{
 
 @media screen and (max-width:800px ) {
     .testimonio-imagen{
-        width: 120px;
-        width: 120px;
+        width: 140px;
+        width: 140px;
     }
     
     .testimonio-texto{
