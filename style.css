@@ -376,28 +376,36 @@ footer{
 }
 
 /* Adaptable (Responsivo) */
+
 @media screen and (max-width: 300px) {
-    .sobre-mi{
-        height: 750px;
-        padding: 10px;
+    .experiencia .seccion-titulo{
+            font-size: 20px;
+        }
     }
-    .sobre-mi .seccion-titulo{
-        font-size: 20px;
+
+    @media screen and (max-width: 350px) {
+        .sobre-mi{
+            height: 500px;
+            padding: 10px;
+        }
+        .sobre-mi .seccion-titulo{
+            font-size: 14px;
+        }
+        .sobre-mi .seccion-texto{
+            font-size: 12px;
+        }
+        .sobre-mi .seccion-texto1{
+            font-size: 10px;
+        }
     }
-    .sobre-mi .seccion-texto{
-        font-size: 16px;
-    }
-    .sobre-mi .seccion-texto1{
-        font-size: 14px;
-    }
-}
+
 @media screen and (max-width: 400px) {
     .sobre-mi{
         height: 700px;
         padding: 10px;
     }
     .sobre-mi .seccion-titulo{
-        font-size: 20px;
+        font-size: 18px;
     }
     .sobre-mi .seccion-texto{
         font-size: 16px;
